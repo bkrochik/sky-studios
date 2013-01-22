@@ -1,0 +1,100 @@
+/* #Resets
+================================================== */ 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+line-height: 23px;
+}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+	color: #181818;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+h2 { font-size: 35px; line-height: 75px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+.subheader { color: #777; }
+
+p { margin: 0 0 20px 0; }
+p img { margin: 0; }
+p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 80%; }
+
+/* #Nav ================================================== */
+nav {
+	background: #fff;
+	width: 100%;
+	position: relative;
+	z-index: 1000;
+	text-align: center;
+	height: 40px;
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+	padding-top: 10px;
+}
+
+nav ul li {
+	display: inline;
+	border-right: 1px solid #e6e6e6;
+	padding: 11px 26px 8px 26px;
+	margin: 0;
+}
+
+nav ul li:first-child {
+	border-left: 1px solid #e6e6e6;
+}
+
+nav a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: #515151 ;
+	font-weight: 310;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:visited {
+	color: #515151;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+/* #Page Styles 
+================================================== */
+
+.menu-warapper{
+	position: fixed;
+}
+
+/* #Footer
+================================================== */
+.footer {
+	width: 100%;
+	border-top: 1px solid #dddddd;
+	text-align: center;
+	position:absolute;
+   	bottom:0;
+   	height:40px;   /* Height of the footer */
+   	background:#fff;
+}
+.footer .footer-text{
+	line-height:2.5em;
+}
